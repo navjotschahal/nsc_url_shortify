@@ -1,0 +1,30 @@
+{
+  "name": "nsc_url_shortify",
+  "version": "1.0.0",
+  "description": "URL sortner, quest to learn and show fundamental learning and building skills :).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon ./backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navjotschahal/nsc_url_shortify.git"
+  },
+  "author": "Navjot Singh Chahal",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/navjotschahal/nsc_url_shortify/issues"
+  },
+  "homepage": "https://github.com/navjotschahal/nsc_url_shortify#readme",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
