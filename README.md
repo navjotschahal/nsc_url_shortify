@@ -29,6 +29,9 @@ Routes:
       b. originalURL -> Some very big url to shortify.
       c. shortURL -> The new encoded short url to use on your SOCIAL-WEBSITE for example or anywhere.  SCHEME """ {nsc-URL-Shortify-app-baseURL}/{uid}
       other keys are Mongo DB collection object data.
+     
+     Screen-shot-reference-Postman: ![image](https://user-images.githubusercontent.com/55528510/141645410-2de15d2e-d939-4a39-ab41-d516b73d6d2b.png)
+
       
 2. api-signature: {baseUrl}/api/redirect/
     request-method: GET
@@ -41,3 +44,6 @@ Routes:
      
      
      Example of request : http://localhost:3000/api/redirect/?uid=ZvrCjc2TO
+     
+     ![image](https://user-images.githubusercontent.com/55528510/141645400-e7378cb1-c888-4855-aa67-7850699bfed5.png)
+
