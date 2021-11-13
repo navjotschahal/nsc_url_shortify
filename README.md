@@ -1,5 +1,5 @@
 # nsc_url_shortify
-A quest to build and learn URL shortner fundamentals using NodeJS, MongoDB atlas cloud DB etc.
+A quest to build and learn URL shortner fundamentals using NodeJS, JavaScript, Express, MongoDB atlas cloud DB etc.
 
 First Use execute   [npm i]
 To start the server execute  npm run start  or npm run start:server
