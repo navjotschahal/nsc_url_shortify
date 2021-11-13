@@ -1,0 +1,32 @@
+{
+    "mongoDbConnection": {
+        "uris": "mongodb+srv://nsc:P%40ssw0rd@cluster0.9zfrh.mongodb.net/Cluster0?retryWrites=true&w=majority",
+        "options": {
+            "ConnectionOptions": {
+                "useNewUrlParser": true,
+                "useUnifiedTopology": true
+            }
+        },
+        "messages": {
+            "sucess": "Connected to Mongo DB.",
+            "sucessSarcasm": "Go ahead and dev something amazing today!",
+            "failed": "Connection to DB failed!",
+            "failedSarcasm": "We gonna fix it, let's dig in ..:`~/:.."
+        }
+    },
+    "strFormater": {
+        "newLine": "\n"
+    },
+    "routes": {
+        "shortify": {
+            "routes": {
+                "shortify": ""
+            }
+        },
+        "redirect": {
+            "routes": {
+                "redirect": ""
+            }
+        }
+    }
+}
